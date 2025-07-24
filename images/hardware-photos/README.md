@@ -5,7 +5,7 @@ This folder contains available photos of the Industrial Voltage Sensor System ha
 ## Available Documentation
 
 ### System Overview
-- **`voltage-sensor-complete-system.jpg`** - Complete assembled voltage sensor system (top view)
+- **`voltage-sensor-complete-system.png`** - Complete assembled voltage sensor system (top view)
 - **`pcb-top-view-layout.jpg`** - PCB layout and component placement (top view)
 
 ## Technical Features Visible
