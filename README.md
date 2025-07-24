@@ -111,23 +111,19 @@ void configure_polarity(polarity_t polarity);
 ```
 industrial-voltage-sensor-calibration/
 ├── docs/
-│   ├── block-diagrams/
-│   ├── pcb-layouts/
-│   └── calibration-procedures/
+│   └── block-diagrams/          # System architecture diagrams and flowcharts
 ├── firmware/
-│   ├── src/
-│   ├── inc/
-│   └── config/
+│   ├── src/                     # STM32 source code (main.c, VoltageSensor.c, adc.c, etc.)
+│   └── inc/                     # Header files (VoltageSensor.h, adc.h, etc.)
 ├── hardware/
-│   ├── schematics/
-│   ├── pcb-files/
-│   └── bom/
+│   └── block-diagrams/          # System architecture documentation
 ├── calibration/
-│   ├── procedures/
-│   └── test-results/
-└── images/
-    ├── hardware-photos/
-    └── test-setup/
+│   ├── curve-fitting/           # Python calibration algorithms
+│   └── results/                 # Calibration data and analysis
+├── images/
+│   └── hardware-photos/         # Industrial hardware photos
+├── PROJECT-SUMMARY.md           # Comprehensive project achievements
+└── README.md                    # This file
 ```
 
 ## 🚀 Future Enhancements
@@ -139,15 +135,16 @@ industrial-voltage-sensor-calibration/
 
 ## 🔗 Related Projects
 
-- [STM32 Cooling System](../stm32-cooling-system-firmware) - Advanced temperature control
-- [Custom PCB Designs](../custom-pcb-collection) - Hardware design portfolio
-- [Industrial IoT Systems](../industrial-iot-portfolio) - Complete automation solutions
+- [STM32 Cooling System](../industrial-stm32-cooling-system) - Advanced temperature control with linear regression
+- [Log Dashboard System](../industrial-log-dashboard-system) - Real-time troubleshooting and anomaly detection
+- [RS485-USB Converter](../custom-rs485-usb-converter-pcb) - Custom 4-layer PCB design
+- [IoT Safety Helmet](../expert-iot-safety-helmet-mining) - Advanced mining safety solution
 
 ## 📞 Contact
 
 **Rivindu Ranasinghe**  
-Senior Electronics & Telecommunications Engineer  
-📧 [rivindurana@gmail.com]  
+Electronics & Telecommunications Engineer  
+📧 [rivindurana07@gmail.com]  
 🔗 [https://www.linkedin.com/in/rivindu-ranasinghe-150910234/]
 
 ---
