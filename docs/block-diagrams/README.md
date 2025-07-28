@@ -6,7 +6,6 @@ This folder contains system architecture and block diagrams for the Industrial V
 
 ### System Architecture Diagrams
 - **`sensor-architecture.pdf`** - Detailed sensor architecture and component layout
-- **`system-working-overview.pdf`** - Complete system working architecture and signal flow
 - **`firmware-flowchart.pdf`** - STM32 firmware algorithm and processing flowchart
 
 ## Diagram Descriptions
@@ -17,11 +16,6 @@ This folder contains system architecture and block diagrams for the Industrial V
 - **Protection circuits** and safety mechanisms  
 - **Component specifications** (anonymized for confidentiality)
 
-### System Working Overview
-- **End-to-end signal flow** from high voltage input to digital output
-- **Data processing pipeline** including filtering and calibration
-- **Communication interfaces** and external connections
-- **System timing** and operational sequences
 
 ### Firmware Flowchart
 - **STM32 main program flow** and initialization sequence
